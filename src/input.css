@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* my own css */
+
+@layer base{
+    .name{
+        font-family: 'Lobster Two', cursive;
+    }
+}

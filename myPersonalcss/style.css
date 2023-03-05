@@ -1,0 +1,710 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fa-bars{
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+.container{
+    display: none;
+    width: 100%;
+    background-color: #303c6c;
+}
+.myNav{
+    display: inline-flex;
+    justify-content: space-around;
+     padding: 15px;
+     width: 100%;
+}
+
+.img{
+    width: 240px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #ff523b;
+}
+
+.item{
+    justify-content: space-around;
+}
+
+.name{
+    font-size: 64px;
+    border: solid 5px #ff523b;
+    border-radius: 23px;
+}
+
+.name2{
+    margin: 30px;
+    font-size: 36px;
+}
+
+
+@media only screen and (max-width: 600px){
+    .name{
+        font-size: 22px;
+        border: solid 2px #ff523b;
+        border-radius: 14px;
+    }
+    
+    
+.fa-bars{
+    font-size: 22px;
+    color: #fff;
+    cursor: pointer;
+    
+}
+.img{
+    width: 140px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #ff523b;
+}
+ 
+
+.myNav{
+    display: inline-flex;
+    justify-content: space-around;
+     padding: 7px;
+}
+
+
+.name2{
+    margin: 15px;
+}
+}
+
+
+
+
+
+.text-container{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.my-text{
+      font-size: 30px;
+    margin-top: 100px;
+    text-align: center;
+    color: #303c6c;
+    font-weight: 400;
+}
+
+.mybtn{
+    border: solid 3px #fff;
+    background: #ff523b;
+    color: #fff;
+    width: 230px;
+    height: 65px;
+    border-radius: 18px;
+}
+
+.blog{
+    color: #ff523b;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+
+.para2{
+    margin: 30px;
+}
+
+@media only screen and (max-width: 600px){
+       
+.para{
+    font-size: 19px;
+    text-align: center;
+}
+
+
+.para2{
+    margin: 20px;
+}
+.my-text{
+  margin-top: 20px;
+  text-align: center;
+  color: #303c6c;
+  font-weight: 300;
+  padding: 7px;
+}
+
+.mybtn{
+    font-size: 19px;
+    border: solid 3px #fff;
+    background: #ff523b;
+    color: #fff;
+    width: 140px;
+    height: 45px;
+    border-radius: 18px;
+}
+
+
+.blog{
+    font-family: sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: #ff523b;
+}
+
+}
+
+
+
+.footer{
+    display: grid;
+    background: #303c6c;
+    height: 100%;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.footer .footer-container{
+    padding-top: 30px;
+        display: flex;
+        justify-content: space-around;
+
+}
+
+
+
+.footer .footer-container .social-media{
+    display: grid;
+     width: 150px;
+     height: 300px;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+.footer .footer-container .social-media h3{
+    text-align: center;
+    text-decoration: overline #ff523b;
+    padding-top: 5px;
+    color: #fff;
+
+}
+
+.footer .footer-container .services{
+    
+    display: grid;
+    color: #fff;
+    font-size: 22px;
+} 
+
+
+.footer .footer-container .services h3{
+    text-align: center;
+    text-decoration: overline #ff523b;
+    padding-top: 5px;
+}
+
+
+.footer .footer-container .services h6{
+    text-align: left;
+    text-transform: lowercase;
+    font-size: 17px;
+}
+
+
+
+
+.footer .copyright{
+    margin-top: 30px;
+    font-size: 10px;
+    color: #999;
+}
+
+
+.footer .myImage h1{
+    margin-top: 40px;
+    margin-left: 7px;
+    font-size: 22px;
+
+}
+
+
+.footer .myImage .name4{
+    border: none;
+}
+
+
+@media only screen and (max-width: 600px){
+    
+
+.footer{
+    display: grid;
+    background: #303c6c;
+    height: 100%;
+    margin-top: 80px;
+    text-align: center;
+}
+
+
+.footer .myImage h1{
+    margin-top: 40px;
+    margin-left: 7px;
+    font-size: 12px;
+
+}
+.footer .footer-container{
+    padding-top: 30px;
+        display: flex;
+        justify-content: space-around;
+
+}
+
+
+
+.footer .footer-container .social-media{
+    display: grid;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.footer .footer-container .social-media h3{
+    text-align: center;
+    text-decoration: overline #ff523b;
+    padding-top: 5px;
+    color: #fff;
+
+}
+
+.footer .footer-container .services{
+    
+    display: grid;
+    color: #fff;
+    font-size: 14px;
+} 
+
+
+.footer .footer-container .services h3{
+    text-align: center;
+    text-decoration: overline #ff523b;
+    padding-top: 5px;
+}
+
+
+.footer .footer-container .services h6{
+    text-align: left;
+    text-transform: lowercase;
+    font-size: 11px;
+}
+
+
+
+
+.footer .copyright{
+    margin-top: 30px;
+    font-size: 10px;
+    color: #999;
+}
+}
+
+/*------------ CONTACTING-------------------*/
+
+.big{
+    display: flex;
+    justify-content: center;
+}
+
+.Mycontainer{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    justify-content: center;
+    border: 2px solid #303c6c ;
+    width: 700px;
+    height: 500px;
+    }
+
+.Mycontainer .another-blog P{
+    padding-top: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: #303c6c;
+
+}
+
+
+.Mycontainer  .form{
+    display: grid;
+    text-align: center;
+}
+
+
+
+.Mycontainer .form .mail{
+    width: 300px;
+    height: 35px;
+    outline: none;
+    border: 3px solid #ff523b;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.Mycontainer .form #select{
+    width: 100px;
+    height: 30px;
+    color: #303c6c;
+    border: 1px solid #000;
+}
+
+
+
+.Mycontainer  input::placeholder{
+    color: #303c6c;
+    font-size: 15px;
+}
+
+.Mycontainer .form #textarea{
+    border: 2px #000 solid;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+
+.Mycontainer .form .Formbtn{
+    color: #fff;
+    background: #ff523b;
+    width: 140px;
+    height: 40px;
+    border: none;
+    margin-top: 4px;
+}
+
+
+
+.Mycontainer .form .Formbtn:hover{
+    border: 2px solid #303c6c;
+    border-radius: 5px;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    
+.big{
+    display: flex;
+    justify-content: center;
+}
+
+.Mycontainer{
+    margin-top: 13px;
+    margin-bottom: 13px;
+    display: grid;
+    justify-content: center;
+    border: 2px solid #303c6c ;
+    width: auto;
+    height: 500px;
+    }
+
+.Mycontainer .another-blog P{
+    padding-top: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #303c6c;
+
+}
+
+
+.Mycontainer  .form{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+.Mycontainer .form .mail{
+    width: 150px;
+    height: 28px;
+    outline: none;
+    border: 2px solid #ff523b;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.Mycontainer .form #select{
+    width: 90px;
+    height: 20px;
+    color: #303c6c;
+    border: 1px solid #000;
+}
+
+
+
+.Mycontainer  input::placeholder{
+    color: #303c6c;
+    font-size: 10px;
+}
+
+.Mycontainer .form #textarea{
+    border: 2px #000 solid;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 4px;
+    width: 300px;
+}
+
+
+.Mycontainer .form .Formbtn{
+    color: #fff;
+    background: #ff523b;
+    width: 120px;
+    height: 30px;
+    border: none;
+    margin-top: 4px;
+}
+
+
+
+.Mycontainer .form .Formbtn:hover{
+    border: 2px solid #303c6c;
+    border-radius: 3px;
+}
+
+}
+
+
+/*--------- about ------------*/
+
+.myAbout{
+    margin: auto;
+    text-align: center;
+    width: auto;
+    padding-top: 60px;
+    color: #000;
+    font-size: 27px;
+}
+
+.about-container{
+    display: flex;
+    height: 100%;
+    background: #eee; 
+    justify-content: center;
+    margin: 10% auto;
+    align-items: center;
+}
+
+.gallery{
+    
+    background: #303c6c;
+    width: 1200px;
+    display: grid;
+    overflow-x: scroll;
+}
+
+.gallery div{
+     width: 100%;
+     display: flex;
+     grid-template-columns: auto auto auto;
+     grid-gap: 20px;
+     padding: 10px;
+     flex: none;
+}
+
+.gallery div img{
+    width: 100%;
+    height: 350px;
+    transition: transform 0.5s;
+}   
+
+
+
+.gallery div img:hover{
+      cursor: pointer;
+      transform: scale(1.1);
+}
+
+.gallery::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+    
+.myAbout{
+    margin: auto;
+    text-align: center;
+    width: auto;
+    padding-top: 20px;
+    color: #000;
+    font-size: 17px;
+}
+
+.about-container{
+    display: flex;
+    height: 100%;
+    background: #eee; 
+    justify-content: center;
+    margin: 10% auto;
+    align-items: center;
+}
+
+.gallery{
+    
+    background: #303c6c;
+    width: auto;
+    display: grid;
+}
+
+.gallery div{
+     width: 100%;
+     display: flex;
+     grid-template-columns: auto auto auto;
+     grid-gap: 20px;
+     padding: 10px;
+     flex: none;
+}
+
+.gallery div img{
+    width: 100%;
+    height: 250px;
+    transition: transform 0.5s;
+}   
+
+
+
+.gallery div img:hover{
+      cursor: pointer;
+      transform: scale(1.1);
+}
+
+}
+
+
+/*----------- FAQS PAGE------------*/
+
+.faq-container{
+    margin: 60px auto;
+    width: 1100px;
+}
+
+
+.faq {
+    margin: 20px 0;
+}
+
+
+.faq #qtn{
+    color: #3951b2;
+    font-size: 28px;
+}
+
+.faq #qtn .fa-chevron-down{
+    color: #ff523b;
+}
+
+.faq .ans{
+    font-size: 18px;
+    text-align: left;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    
+.faq-container{
+    margin: 20px auto;
+    width: auto;
+}
+
+
+.faq {
+    margin: 10px 10px;
+}
+
+
+.faq #qtn{
+    color: #3951b2;
+    font-size: 22px;
+}
+
+.faq #qtn .fa-chevron-down{
+    color: #ff523b;
+}
+
+.faq .ans{
+    font-size: 14px;
+    text-align: left;
+}
+
+}
+
+
+
+/*------------------ projects ---------------*/
+
+.main{
+    margin: 10% 8%;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main .projects{
+    width: auto;
+    height: auto;
+}
+
+.main .projects #frame{
+    width: 414px;
+    height: 896px;
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+    
+.main{
+    justify-content: center;
+    width: auto;
+    height: auto;
+    display: grid;
+
+}
+
+.main .projects{
+    width: auto;
+    height: auto;
+}
+
+.main .projects #frame{
+    width: 350px;
+    height: 650px;
+    margin-top: 15px;
+   
+} 
+}
+
+
+
+
+
+
+
+
+
+
+
+
